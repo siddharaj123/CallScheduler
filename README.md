@@ -16,6 +16,7 @@ To Run:
 (python3 sheets.py members.csv).
 
 BackStory to the Project (for those interested)
+
 At my temple, we were always looking for ways to increase our weekly attendance for our sermons. One way we decided was through making phone calls every week to remind people to attend our weekly sermons. But our method to doing it was very inefficient. Before, our local admin would create an excel or google sheet that would have all the data for the people that needed to be called, and that spreadsheet was then placed on the volunteers group telegram group. However, as the week went on, the message containing the spreadsheet was lost in the chat, making it hard to go back and find where the spreadsheet was. Furthermore, the spreadsheet was packed with data, and even with proper formatting, it was hard for anyone to be able to really read it, especially from a mobile device. 
 
 To solve this issue, I developed sheets.py, which would take the data from the spreadsheet which had the information about which people to call, and it would message volunteers individually on telegram (which was the main form of communication that everyone used) and notify them very clearly in a readable format about what calls they had to make during the week.
